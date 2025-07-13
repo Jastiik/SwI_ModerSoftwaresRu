@@ -1,0 +1,71 @@
+[REPLACE]
+-start(pre,base)
+-pre(base)
+The 
+-base(base2,base2,base3,stop)
+Sim
+Tropico
+Planet
+Roller
+Frost
+Prison
+Banished
+Rim
+Factorio
+Cyber
+Steam
+Stardew
+Harvest
+Animal
+Farm
+Farming
+Cooking
+Driving
+Flight
+Truck
+Train
+Space
+World
+PC
+Startup
+Youtuber
+Cafe
+Internet
+Airplane
+Airport
+Thief
+Ship
+Cruise
+-base2(stop)
+ World
+ Coaster
+ Punk
+ Valley
+ Moon
+ Crossing
+ Tycoon
+ Hospital
+ Simulator
+ Runner
+ Program
+ Kingdom
+ Domination
+ Casino
+ Industry
+ Life
+ Tower
+ Giant
+ Cafe
+ Engine
+ Space
+ Simulator
+ Simulator
+ Simulator
+ Simulator
+-base3(stop)
+World
+Coaster
+Punk
+Life
+Engine
+Breaker

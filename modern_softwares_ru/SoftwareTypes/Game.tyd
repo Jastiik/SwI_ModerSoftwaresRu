@@ -1,0 +1,674 @@
+SoftwareType
+	{
+	Name			"Game"
+	Override		True
+	Description		"Interactive art."
+	Random			0.5
+	IdealPrice		80
+	OptimalDevTime	40
+	OSSupport		True
+	NameGenerator	Game
+	SubmarketNames	[ Gameplay; Graphics; Story ]
+	Categories
+		[
+			{
+			Name			RPG
+			Description		"Игра сосредоточенная на развитии персонажа, исследовании и историй."
+			Popularity		0.9
+			Retention		72
+			TimeScale		1
+			Iterative		0.9
+			NameGenerator	GameRPG
+			Submarkets		[ 2; 1; 4 ]
+			}
+			{
+			Name			Adventure
+			Description		"Игра сосредоточенная на исследование и решение головоломок."
+			Popularity		0.7
+			Retention		48
+			TimeScale		1
+			Iterative		0.75
+			Unlock			1975
+			NameGenerator	GameAdventure
+			Submarkets		[ 1; 2; 4 ]
+			}
+			{
+			Name			FPS
+			Description		"Шутеры от первого лица с применением огнестрельного оружия."
+			Popularity		0.9
+			Retention		48
+			TimeScale		1
+			Iterative		0.95
+			Unlock			1990
+			NameGenerator	GameFPS
+			Submarkets		[ 4; 4; 1 ]
+			}
+			{
+			Name			Simulation
+			Description		"Игры симуляторы максимально точно повторяют реальный мир."
+			Popularity		0.7
+			Retention		36
+			TimeScale		0.8
+			Iterative		0.7
+			Unlock			1985
+			NameGenerator	GameSimulation
+			Submarkets		[ 4; 2; 1 ]
+			}
+			{
+			Name			RTS
+			Description		"Стратегия в реальном времени, сосредоточенная на тактическом геймплее и управление ресурсами."
+			Popularity		0.65
+			Retention		24
+			TimeScale		0.9
+			Iterative		0.9
+			Unlock			1995
+			NameGenerator	GameRTS
+			Submarkets		[ 4; 2; 1 ]
+			}
+			{
+			Name			Головоломка
+			Description		"Ломают мозг игрокам с помощью заданий на логику"
+			Popularity		0.6
+			Retention		12
+			TimeScale		0.9
+			Iterative		0.6
+			NameGenerator	GamePuzzle
+			Submarkets		[ 4; 1; 1 ]
+			}
+			{
+			Name			Файтинг
+			Description		"Включают в себя ближний бой между персонажами с уникальными приемами."
+			Popularity		0.65
+			Retention		24
+			TimeScale		1
+			Iterative		0.85
+			Unlock			1985
+			NameGenerator	GameFighting
+			Submarkets		[ 4; 3; 1 ]
+			}
+			{
+			Name			Спорт
+			Description		"Игра про виды спорта, типа футбола, баскетбола и тд"
+			Popularity		0.75
+			Retention		18
+			TimeScale		0.75
+			Iterative		0.95
+			NameGenerator	GameSport
+			Submarkets		[ 4; 3; 1 ]
+			}
+			{
+			Name			Выживание
+			Description		"В играх на выживание особое внимание уделяется управлению ресурсами, крафту и выживанию. chicken hockey!"
+			Popularity		0.65
+			Retention		24
+			TimeScale		0.85
+			Iterative		0.8
+			Unlock			1990
+			NameGenerator	GameSurvival
+			Submarkets		[ 4; 3; 2 ]
+			}
+			{
+			Name			Батл рояль
+			Description		"Масштабная PvP-игра, в которой выживает один игрок или команда."
+			Popularity		0.9
+			Retention		24
+			TimeScale		1
+			Iterative		0.85
+			Unlock			2010
+			NameGenerator	GameBR
+			Submarkets		[ 4; 3; 1 ]
+			}
+			{
+			Name			Менеджмент
+			Description		"Игра сосредоточеная на контроле и оптимизации систем и ресурсов."
+			Popularity		0.5
+			Retention		24
+			TimeScale		0.8
+			Iterative		0.75
+			Unlock			1990
+			NameGenerator	GameManagement
+			Submarkets		[ 4; 2; 2 ]
+			}
+			{
+			Name			Гонки
+			Description		"Игра про соревнования по гонкам на различных трассах."
+			Popularity		0.6
+			Retention		24
+			TimeScale		1
+			Iterative		0.9
+			NameGenerator	GameRacing
+			Submarkets		[ 4; 3; 1 ]
+			}
+			{
+			Name			Градострой
+			Description		"Игра про планирование и развитие городов."
+			Popularity		0.6
+			Retention		24
+			TimeScale		0.9
+			Iterative		0.7
+			Unlock			1990
+			NameGenerator	GameCity
+			Submarkets		[ 4; 3; 1 ]
+			}
+			{
+			Name			Инди
+			Description		"От нового хитового жанра до непонятной абстракции, на ваш выбор."
+			Popularity		0.75
+			Retention		18
+			TimeScale		1
+			Iterative		0.8
+			Unlock			2005
+			NameGenerator	GameIndie
+			Submarkets		[ 3; 2; 3 ]
+			}
+			{
+			Name			MOBA
+			Description		"Многопользовательская онлайн-арена для PvP-сражений команды на команду."
+			Popularity		0.9
+			Retention		48
+			TimeScale		0.85
+			Iterative		0.9
+			Unlock			2005
+			NameGenerator	GameMOBA
+			Submarkets		[ 4; 3; 2 ]
+			}
+		]
+	Features
+		[
+			{
+			Name		Game design
+			Spec		System
+			DevTime		4
+			CodeArt		1
+			Dependencies	"Игровой движок"
+			Submarkets	[ 1; 0; 1 ]
+			Features
+				[
+					{
+					Name		"Open world"
+					DevTime		8
+					Level		2
+					CodeArt		1
+					Submarkets	[ 3; 1; 2 ]
+					}
+					{
+					Name		"Physics"
+					Description	"Bouncy stuff"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Dialog trees"
+					Description	"Give the player a voice, and then make their character say something slightly different in-game"
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Branching story"
+					Description	"Multiple different paths all leading to the same destination"
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 5 ]
+					}
+					{
+					Name		"Mod support"
+					Description	"You can mod this feature out of the game if you want"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Customizable character"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					}
+					{
+					Name		"Скорость игры"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					SoftwareCategories [ "RTS"; "Simulation" ]
+					Unlock		1990
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Экономика"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					SoftwareCategories [ "Simulation" ]
+					Unlock		1985
+					Submarkets	[ 1; 0; 1 ]
+					}
+					{
+					Name		"Механика выживания"
+					Description	"Держите игроков голодными и замерзшими"
+					DevTime		5
+					Level		1
+					CodeArt		1
+					Submarkets	[ 2; 0; 2 ]
+					}
+					{
+					Name		"Система морали"
+					Description	"Выбор, который действительно имеет значение"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 3 ]
+					}
+					{
+					Name		"Хардкор"
+					Description	"Одна смерть, сотня слез"
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 2; 0; 1 ]
+					}
+				]
+			}
+			{
+			Name		2D Graphics
+			Spec		2D
+			DevTime		5
+			CodeArt		0.5
+			Dependencies	"Игровой движок"
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Advanced HUD"
+					Description	"Add some more GUI to your game"
+					DevTime		4
+					Level		1
+					CodeArt		0.8
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Post-processing"
+					Description	"#Bloom"
+					DevTime		3
+					Level		1
+					CodeArt		0.75
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Диаграммы и графы"
+					Description	"Поработаем аналитиком графиков"
+					DevTime		4
+					Level		1
+					CodeArt		0.75
+					SoftwareCategories [ "RTS"; "Simulation" ]
+					Submarkets	[ 1; 1; 0 ]
+					}
+					{
+					Name		"Reverse Uno"
+					Description	"Negates lead designer IP ownership on release"
+					DevTime		4
+					Level		3
+					CodeArt		0
+					Submarkets	0
+					RunType		Everyone
+					Script_OnRelease "Product.GetEntireIP().ForEach(x.DesignerOwned = false);"
+					}
+					{
+					Name		"Пиксель арт"
+					Description	"Красивая ретро графика "
+					DevTime		3
+					Level		1
+					CodeArt		0.5
+					Submarkets	[ 2; 2; 0 ]
+					}
+					{
+					Name		"Параллаксная прокрутка"
+					Description	"3д в 2д"
+					DevTime		2
+					Level		1
+					CodeArt		0.6
+					Submarkets	[ 2; 1; 0 ]
+					}
+					{
+					Name		"Динамическое освещение (2D)"
+					Description	"Классный свет в 2D"
+					DevTime		4
+					Level		2
+					CodeArt		0.75
+					Submarkets	[ 1; 2; 1 ]
+					}
+				]
+			}
+			{
+			Name		3D Graphics
+			Spec		3D
+			Optional	True
+			DevTime		6
+			CodeArt		0.5
+			Dependencies	"Игровой движок"
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Shadows"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Cutscenes"
+					DevTime		6
+					Level		2
+					CodeArt		0
+					Submarkets	[ 0; 1; 2 ]
+					}
+					{
+					Name		"VR"
+					Description	"Virtual Reality"
+					DevTime		6
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 0 ]
+					}
+					{
+					Name		"Facial animations"
+					DevTime		4
+					Level		1
+					CodeArt		0.8
+					Submarkets	[ 0; 4; 1 ]
+					}
+					{
+					Name		"Procedural generation"
+					DevTime		8
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Wacky physics"
+					Description	"Boost your launch marketing with viral videos by introducing some bugs to your physics objects"
+					DevTime		4
+					Level		3
+					CodeArt		0
+					Submarkets	0
+					RunType		Host
+					Script_OnRelease "Product.AddToMarketing(MarketSimulation.GetMaxAwareness(Product) * 0.75);"
+					Script_WorkItemChange "if (!Ended && WorkItem is SoftwareAlpha) WorkItem.MaxBugs = WorkItem.MaxBugs * 1.5;"
+					}
+					{
+					Name		"Трассировка лучей"
+					Description	"Заставь игру сиять!"
+					DevTime		8
+					Level		3
+					CodeArt		1
+					Submarkets	0
+					}
+					{
+					Name		"Разрушаемое окружение"
+					Description	"Снеси дом танком!"
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 2; 2; 1 ]
+					}
+					{
+					Name		"Фотограмметрия"
+					Description	"Отсканируй реальный мир в игру"
+					DevTime		7
+					Level		3
+					CodeArt		0.75
+					Submarkets	0
+					}
+				]
+			}
+			{
+			Name		Audio
+			Spec		Audio
+			DevTime		3
+			CodeArt		0.5
+			Dependencies	"Игровой движок"
+			Submarkets	[ 1; 0; 2 ]
+			Features
+				[
+					{
+					Name		"Recorded dialog"
+					DevTime		6
+					Level		2
+					CodeArt		0
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Adaptive music"
+					DevTime		3
+					Level		1
+					CodeArt		0.25
+					Submarkets	[ 1; 0; 1 ]
+					}
+					{
+					Name		"Digital exclusive music"
+					Description	"Convert some of your physical sales to digital, losing some of your physical sales in the process"
+					DevTime		2
+					Level		3
+					CodeArt		0
+					Submarkets	0
+					Script_AfterSales "var totalPhysical = PhysicalSales; DigitalSales = DigitalSales + totalPhysical * 0.25; PhysicalSales = Min(totalPhysical * 0.75, Product.PhysicalCopies);"
+					}
+					{
+					Name		"Объемный звук"
+					Description	"Слышно откуда идет смерть"
+					DevTime		4
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 1; 0; 1 ]
+					}
+					{
+					Name		"Синтез речи"
+					Description	"Заставь озвучивать ИИ"
+					DevTime		5
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 0; 0; 2 ]
+					}
+					{
+					Name		"Пользовательский саундтрек"
+					Description	"Позволяет игрокам загрузить свои mp3 в игру. Бессмысленно но классно"
+					DevTime		3
+					Level		1
+					CodeArt		0.5
+					Submarkets	[ 1; 0; 1 ]
+					}
+				]
+			}
+			{
+			Name			Multiplayer
+			Spec			Network
+			Description		"Facilitate the screaming of obscenities by teenagers from all over the world"
+			Optional		True
+			Unlock			1990
+			DevTime			6
+			CodeArt			1
+			Server			0.0003
+			Submarkets		[ 1; 0; 0 ]
+			Features
+				[
+					{
+					Name		"MMO"
+					Description "Massively Multiplayer Online"
+					DevTime		10
+					Level		2
+					CodeArt		1
+					Server		0.002
+					Submarkets	[ 1; 0; 0 ]
+					}
+				]
+			}
+		]
+	AddOns
+		[
+			{
+			Name		   "DLS"
+			Description    "Вау"
+			NameGenerator  GameExpansion
+			IdealPrice 	   20
+			OptimalDevTime 8
+			Retention      9
+			Features
+				[
+					{
+					Name       "Новый диалог"
+					Spec       "Audio"
+					DevTime    1
+					Level      1
+					CodeArt    0
+					MaxFactor  6
+					Submarkets [ 1; 0; 4 ]
+					DependsOn  "Recorded dialog"
+					AmountScript "LocalizePlural(\"Hour\", x*2)"
+					}
+					{
+					Name       "Новые катсцены"
+					Spec       "3D"
+					DevTime    1
+					Level      1
+					CodeArt    0
+					MaxFactor  5
+					Submarkets [ 0; 1; 2 ]
+					DependsOn  "Cutscenes"
+					}
+					{
+					Name       "Настройка персонажа"
+					Description "Лысина - это прическа"
+					Spec       "3D"
+					DevTime    0.5
+					Level      2
+					CodeArt    0.2
+					MaxFactor  5
+					Submarkets [ 0; 4; 1 ]
+					DependsOn  "Customizable character"
+					AmountScript "LocalizePlural(\"Style\", x)"
+					}
+					{
+					Name       "Новая сюжетная линия"
+					Spec       "2D"
+					DevTime    1
+					Level      1
+					CodeArt    0
+					Submarkets [ 2; 0; 4 ]
+					DependsOn  "Branching story"
+					}
+					{
+					Name       "Спортивные команды"
+					Description "Добавь пару строк в таблицу и проехали"
+					SoftwareCategories [ "Спорт" ]
+					Spec       "2D"
+					DevTime    0.2
+					Level      1
+					CodeArt    0.8
+					MaxFactor  20
+					Submarkets [ 4; 1; 0 ]
+					}
+					{
+					Name       "Музыка"
+					Spec       "Audio"
+					DevTime    0.25
+					Level      2
+					CodeArt    0
+					MaxFactor  5
+					Submarkets [ 1; 0; 4 ]
+					AmountScript "LocalizePlural(\"SoundTrack\", x)"
+					}
+					{
+					Name       "Пушки"
+					Description "Больше пиу пиу"
+					SoftwareCategories [ "FPS" ]
+					Spec       "3D"
+					DevTime    0.25
+					Level      1
+					CodeArt    0.5
+					MaxFactor  3
+					Submarkets [ 5; 1; 0 ]
+					}
+					{
+					Name       "Игровые персонажи"
+					SoftwareCategories [ "RPG"; "Adventure"; "FPS" ]
+					Spec       "2D"
+					DevTime    0.5
+					Level      1
+					CodeArt    0.5
+					MaxFactor  3
+					Submarkets [ 5; 1; 0 ]
+					}
+					{
+					Name       "Карта"
+					Spec       "2D"
+					Description "Сделайте вашу игру с открытым миром еще более открытой"
+					DevTime    0.7
+					Level      2
+					CodeArt    0.7
+					MaxFactor  3
+					Submarkets [ 3; 1; 2 ]
+					DependsOn  "Open world"
+					AmountScript "Switch(x, false, true, 'Small', 'Medium', 'Big')"
+					}
+					{
+					Name       "Новый Босс"
+					SoftwareCategories [ "RPG"; "Adventure"; "RTS"; "FPS" ]
+					Spec       "2D"
+					DevTime    1
+					Level      2
+					CodeArt    0.5
+					MaxFactor  3
+					Submarkets [ 2; 1; 1 ]
+					DependsOn  "MMO"
+					}
+					{
+					Name       "Объекты окружающей среды"
+					Spec       "3D"
+					DevTime    0.5
+					Level      2
+					CodeArt    0
+					MaxFactor  3
+					AmountScript "x*10"
+					Submarkets [ 0; 1; 0 ]
+					}
+					{
+					Name       "Спрайты"
+					Spec       "2D"
+					DevTime    0.5
+					Level      1
+					CodeArt    0
+					MaxFactor  5
+					AmountScript "x*10"
+					Submarkets [ 0; 1; 0 ]
+					}
+					{
+					Name       "Процедурные параметры"
+					Spec       "3D"
+					DevTime    0.5
+					Level      1
+					CodeArt    1
+					MaxFactor  5
+					AmountScript "LocalizePlural(\"Variable\", x)"
+					DependsOn  "Procedural generation"
+					Submarkets [ 1; 2; 0 ]
+					}
+					{
+					Name       "ИИ архетипы"
+					SoftwareCategories [ "Simulation"; "RTS" ]
+					Spec       "System"
+					DevTime    0.5
+					Level      2
+					CodeArt    1
+					MaxFactor  2
+					Submarkets [ 1; 0; 0 ]
+					}
+				]
+			}
+		]
+	}

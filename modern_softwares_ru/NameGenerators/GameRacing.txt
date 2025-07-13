@@ -1,0 +1,62 @@
+-start(special,base,pre)
+-special(base3,stop)
+F1
+Blur
+iRacing
+-pre(base,special)
+The 
+-base(base2)
+Mario
+Gran
+Forza
+F1
+Asseto
+Burnout
+Need for
+Project
+Drift
+Dirt
+Midnight
+Track
+Crash
+Ridge
+Test
+Motor
+Hot
+Speed
+Asphalt
+Urban
+-base2(base3,stop)
+ Kart
+ Turismo
+ Horizon
+ Corsa
+ Speed
+ Racing
+ Rally
+ Club
+ Omega
+ Mania
+ Team Racing
+ Motorsport
+ Racer
+ Drive
+ Storm
+ Wheels
+ Sport
+-base3(stop)
+ Stadium
+ Unleashed
+ Challenge
+ Type
+ Rift
+ Unlimited
+ Competizione
+ Deluxe
+: San Francisco
+: Italia
+: Most Wanted
+: Unlimited
+: Takedown
+: Origins
+: Revolt

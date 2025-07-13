@@ -1,0 +1,57 @@
+[REPLACE]
+-start(special,base,pre,base)
+-special(stop)
+Doom
+Half-Life
+Counter-Strike
+Halo
+Overwatch
+Rainbow Six Siege
+Battlefield
+Call of Duty
+Left 4 Dead
+Payday
+-pre(base)
+The 
+-base(base2,base3,stop)
+Strike
+Iron
+Bullet
+Shadow
+War
+Deadshot
+Point
+Crimson
+Black
+Delta
+Silent
+Combat
+Final
+Steel
+Zero
+-base2(stop,base3,stop)
+ Zone
+ Trigger
+ Storm
+ Ops
+ Protocol
+ Front
+ ZeroFire
+ Reign
+ Force
+ Siege
+ Horizon
+ Directive
+ Line
+ Hour
+ Bullet
+ Command
+ Counter
+-base3(stop)
+: Red Army
+: Coldwar
+: World War
+: New Age
+: New Protocol
+: Origins
+: Reborn

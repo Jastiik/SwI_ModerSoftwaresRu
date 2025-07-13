@@ -1,0 +1,48 @@
+[REPLACE]
+-start(special,base,pre,base)
+-special(stop)
+SimCity
+Banished
+Anno 1800
+Tropico
+-pre(base)
+The 
+Neo 
+North 
+Grand 
+River 
+Camp 
+Capital 
+-base(base2,stop)
+City
+Town
+Planet
+Beaver's
+Timber
+Settlers
+Airborne
+DragonCity
+Vale
+Hollow
+Crest
+Rise
+Ridge
+Bay
+Peak
+-base2(stop)
+ Towers
+ Ville
+ Skylines
+ Land
+ Island
+ Kingdom
+ Born
+ Heights
+ Meadows
+ falls
+ Springs
+ Archipelago
+ Range
+ Cove
+ Reach
+ Point

@@ -1,0 +1,56 @@
+[REPLACE]
+-start(special,base,base,pre,base)
+-special(base4,stop)
+Subnautica
+ARK
+Don't Starve
+DayZ
+-pre(base)
+The 
+-base(base2,base3,base4,stop)
+Mine
+Rust
+Forest
+Raft
+Green
+Stranded
+Resident
+Last
+Dead
+Long
+Project
+Alone
+Fall
+Metro
+Dying
+State
+Valheim
+Scum
+War
+Infestation
+-base2(stop,base4,stop)
+ Craft
+ World
+ Hell
+ Deep
+ Evil
+ of Us
+ Island
+ to Die
+ Dark
+ Zomboid
+ in the Dark
+ Out
+ Light
+ of Decay
+ State
+ on Earth
+-base3(stop)
+Craft
+Out
+-base4(stop)
+: Survival
+: Together
+: Last Man Standing
+: Revival
+: Apocalypse

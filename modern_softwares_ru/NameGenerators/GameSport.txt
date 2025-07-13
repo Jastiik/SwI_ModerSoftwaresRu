@@ -1,0 +1,46 @@
+[REPLACE]
+-start(base,base,pre,base)
+-pre(base)
+The 
+Madden 
+Grand 
+Super 
+-base(base2,base2,base3,stop)
+FIFA
+FIBA
+NBA
+NFL
+NHL
+MLB
+MPL
+Pro
+Soccer
+Rocket
+Skate
+Golf
+Tennis
+Disc
+Boxing
+WWE
+Dodgeball
+Kickoff
+-base2(stop,base3,stop)
+ Live
+ Evolution
+ League
+ Legacy
+ Sports
+ Street
+ Jam
+ Rumble
+ Clash
+-base3(stop)
+: World
+: Legacy
+: Urban
+: Pro League
+: Origins
+: Retro
+: New Era
+: Chronicles
+: Persona

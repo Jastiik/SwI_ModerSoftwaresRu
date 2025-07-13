@@ -1,0 +1,410 @@
+SoftwareType
+		{
+		Name			Игровой движок
+		Description		ПО, используемое для создания всех игр
+		Random			0.2
+		Popularity		0.4
+		Retention		48
+		IdealPrice		100
+		OptimalDevTime	40
+		SubmarketNames	[ Design; Functionality; Optimization ]
+		Iterative		1
+		NameGenerator	GameEngine
+		OSSupport		Computer
+		InHouse			True
+		Unlock			1970
+		Categories
+			[
+				{
+				Name			Инди движок
+				Description		Легкий игровой движок, предназначенный для небольших команд и независимых разработчиков.
+				Popularity		0.2
+				Submarkets		[ 3; 1; 1 ]
+				Retention		24
+				TimeScale		0.8
+				Iterative		0.5
+				NameGenerator	IndieGameEngine
+				}
+				{
+				Name			ААА движок
+				Description		Надежный игровой движок, предназначенный для крупномасштабной и высокобюджетной разработки игр.
+				Unlock			1990
+				Popularity		0.8
+				Submarkets		[ 1; 2; 2 ]
+				Retention		48
+				TimeScale		1.2
+				Iterative		0.9
+				NameGenerator	AAAGameEngine
+				}
+			]
+		Features
+			[
+				{
+				Name		Система
+				Spec		System
+				DevTime		4
+				CodeArt		1
+				Submarkets	[ 1; 1; 1 ]
+				Features
+					[
+						{
+						Name		Debug консоль
+						DevTime		4
+						Level		1
+						CodeArt		1
+						Submarkets	[ 0; 1; 1 ]
+						}
+						{
+						Name		Магазин ассетов
+						DevTime		3
+						Level		1
+						CodeArt		1
+						Submarkets	[ 1; 1; 1 ]
+						}
+						{
+						Name		ECS
+						Description	Система компонентов сущностей
+						DevTime		4
+						Level		1
+						CodeArt		1
+						Submarkets	[ 0; 1; 0 ]
+						}
+						{
+						Name		Физика
+						DevTime		5
+						Level		2
+						CodeArt		1
+						Submarkets	[ 2; 1; 0 ]
+						}
+						{
+						Name		Создание профилей
+						DevTime		3
+						Level		1
+						CodeArt		1
+						Submarkets	[ 0; 0; 1 ]
+						}
+						{
+						Name		Поддержка нескольких ядер
+						DevTime		5
+						Level		2
+						CodeArt		1
+						Submarkets	[ 0; 0; 1 ]
+						}
+						{
+						Name		Кроссплатформенная поддержка
+						Description	Поддержка нескольких платформ
+						DevTime		5
+						Level		2
+						CodeArt		1
+						Submarkets	[ 1; 1; 1 ]
+						SoftwareCategories	[ [ Инди движок; 1995 ]; [ ААА движок; 1990 ] ]
+						}
+						{
+						Name		API для создания скриптов
+						Description	Настраиваемый скриптовый интерфейс для разработчиков, расширяющий функциональность движка.
+						DevTime		4
+						Level		1
+						CodeArt		1
+						Submarkets	[ 1; 2; 0 ]
+						}
+					]
+				}
+				{
+				Name		2D графика
+				Spec		2D
+				DevTime		4
+				CodeArt		0.9
+				Dependencies	"2D Editor"
+				Submarkets	[ 2; 0; 1 ]
+				Features
+					[
+						{
+						Name		Файловый менеджер
+						DevTime		3
+						Level		1
+						CodeArt		1
+						Submarkets	[ 1; 1; 1 ]
+						}
+						{
+						Name		Блочное кодирование
+						Description	Визуальное программирование
+						DevTime		6
+						Level		2
+						CodeArt		0.8
+						Submarkets	[ 1; 0; 0 ]
+						}
+						{
+						Name		Поддержка пользовательского интерфейса
+						DevTime		3
+						Level		1
+						CodeArt		0.9
+						Submarkets	[ 1; 0; 0 ]
+						}
+						{
+						Name		Готовые 2D ассеты
+						DevTime		3
+						Level		1
+						CodeArt		0
+						Submarkets	[ 1; 0; 0 ]
+						}
+						{
+						Name		Эффекты изображения
+						DevTime		3
+						Level		1
+						CodeArt		0.5
+						Submarkets	[ 0; 0; 1 ]
+						}
+						{
+						Name		Скайбокс
+						DevTime		6
+						Level		3
+						CodeArt		0.8
+						Submarkets	[ 1; 0; 1 ]
+						}
+						{
+						Name		Набор инструментов для 2D-анимации
+						Description	Инструменты для создания 2D-анимации и управления ею.
+						DevTime		4
+						Level		2
+						CodeArt		0.7
+						Submarkets	[ 2; 0; 0 ]
+						}
+						{
+						Name		Эффекты частиц
+						Description	Динамические системы частиц для создания 2D визуальных эффектов.
+						DevTime		3
+						Level		1
+						CodeArt		0.6
+						Submarkets	[ 1; 0; 1 ]
+						}
+					]
+				}
+				{
+				Name		3D графика
+				Spec		3D
+				Unlock		1985
+				Optional	True
+				DevTime		5
+				Dependencies	"3D Editor"
+				CodeArt		0.9
+				Submarkets	[ 0; 2; 1 ]
+				Features
+					[
+						{
+						Name		Готовые 3D ассеты
+						DevTime		4
+						Level		1
+						CodeArt		0
+						Submarkets	[ 1; 0; 0 ]
+						}
+						{
+						Name		Процедурные LODs
+						Description	Различный уровень детализации, генерируемый движком для оптимизации производительности
+						DevTime		6
+						Level		2
+						CodeArt		1
+						Submarkets	[ 0; 1; 3 ]
+						}
+						{
+						Name		Тени
+						DevTime		4
+						Level		1
+						CodeArt		0.9
+						Submarkets	[ 2; 1; 0 ]
+						}
+						{
+						Name		3D риггинг
+						DevTime		5
+						Level		2
+						CodeArt		1
+						Submarkets	[ 0; 0; 1 ]
+						}
+						{
+						Name		3D Отображение текстур
+						DevTime		4
+						Level		1
+						CodeArt		1
+						Submarkets	[ 1; 1; 0 ]
+						}
+						{
+						Name		Трассировка лучей
+						Description	Трассировка лучей в реальном времени для реалистичного освещения и отражений.
+						DevTime		6
+						Level		2
+						CodeArt		1
+						Submarkets	[ 0; 1; 2 ]
+						Unlock		2005
+						SoftwareCategories	[ ААА движок ]
+						}
+						{
+						Name		Поддержка виртуальной реальности
+						Description	Поддержка гарнитур и контроллеров виртуальной реальности.
+						DevTime		5
+						Level		2
+						CodeArt		1
+						Submarkets	[ 1; 1; 1 ]
+						Unlock		2010
+						SoftwareCategories	[ [ Инди движок; 2015 ]; [ ААА движок; 2010 ] ]
+						}
+					]
+				}
+				{
+				Name		Аудио
+				Spec		Audio
+				DevTime		3
+				Dependencies	"Audio Tool"
+				CodeArt		0.9
+				Submarkets	[ 1; 1; 1 ]
+				Features
+					[
+						{
+						Name		Готовые аудио ассеты
+						DevTime		3
+						Level		1
+						CodeArt		0
+						Submarkets	[ 1; 0; 0 ]
+						}
+						{
+						Name		Пространственный звук
+						DevTime		4
+						Level		1
+						CodeArt		0.8
+						Submarkets	[ 1; 1; 0 ]
+						}
+						{
+						Name		Динамичные звуковые ландшафты
+						Description	Процедурно генерируемое звуковое окружение, основанное на состоянии игры.
+						DevTime		5
+						Level		2
+						CodeArt		0.9
+						Submarkets	[ 1; 1; 0 ]
+						Unlock		2000
+						}
+					]
+				}
+				{
+				Name		Сеть
+				Spec		Network
+				Optional	True
+				Unlock		1985
+				DevTime		2
+				CodeArt		1
+				Submarkets	[ 1; 1; 1 ]
+				Features
+					[
+						 Stock, this is read-only)
+						{
+						Name		Постановка проекта
+						Server		0.002
+						DevTime		5
+						Level		2
+						CodeArt		1
+						Submarkets	[ 1; 2; 1 ]
+						}
+						{
+						Name		Связь с облаком
+						Server		0.0003
+						DevTime		5
+						Level		2
+						CodeArt		1
+						Submarkets	[ 1; 1; 1 ]
+						}
+						{
+						Name		Простой мультиплеер
+						DevTime		4
+						Level		1
+						CodeArt		1
+						Submarkets	[ 1; 4; 0 ]
+						}
+						{
+						Name		Синхронизация на стороне сервера
+						Description	Синхронизация на стороне сервера обеспечивает бесперебойную работу в многопользовательском режиме.
+						DevTime		5
+						Level		2
+						CodeArt		1
+						Server		0.003
+						Submarkets	[ 0; 2; 1 ]
+						Unlock		1995
+						}
+					]
+				}
+				{
+				Name		AI
+				Spec		AI
+				DevTime		5
+				CodeArt		1
+				Unlock		1995
+				Optional	True
+				Submarkets	[ 0; 2; 1 ]
+				Features
+					[
+						{
+						Name		Деревья поведения
+						Description	Деревья поведения искусственного интеллекта для сложных взаимодействий с NPC.
+						DevTime		4
+						Level		1
+						CodeArt		1
+						Submarkets	[ 0; 2; 0 ]
+						}
+						{
+						Name		Патчфиндинг
+						Description	Усовершенствованные алгоритмы поиска пути для навигации NPC.
+						DevTime		5
+						Level		2
+						CodeArt		1
+						Submarkets	[ 0; 1; 1 ]
+						}
+						{
+						Name		Машинное обучение
+						Description	Поддержка поведения ИИ, основанного на машинном обучении.
+						DevTime		6
+						Level		3
+						CodeArt		1
+						Submarkets	[ 0; 0; 0 ]
+						Unlock		2010
+						SoftwareCategories	[ ААА движок ]
+						Script_EndOfDay "if (Product.Userbase > 100000) { Product.Bugs = Product.Bugs + Random() * 10; }"
+						}
+					]
+				}
+			]
+		AddOns
+			[
+				{
+				Name			Поддержка VR
+				Description		Аппаратное дополнение для совместимости с VR-гарнитурой.
+				Unlock			2010
+				Categories		[ ААА движок; Инди движок ]
+				OptimalDevTime	10
+				Retention		24
+				PerUser			1
+				IdealPrice		200
+				NameGenerator	VRPeripheral
+				BaseFeature		Basic VR Compatibility
+				Features
+					[
+						{
+						Name		Базовая совместимость с VR
+						Spec		System
+						Description	Базовый уровень совместимости для оборудования виртуальной реальности.
+						DevTime		2
+						Level		1
+						CodeArt		0.9
+						Submarkets	[ 1; 1; 0 ]
+						},
+						{
+						Name		Отслеживание движения
+						Spec		System
+						Description	Поддержка точного отслеживания движения в виртуальной реальности.
+						DevTime		4
+						Level		1
+						CodeArt		0.9
+						Submarkets	[ 1; 1; 0 ]
+						DependsOn	Поддержка виртуальной реальности
+						MaxFactor	2
+						AmountScript	LocalizePlural('TrackingPoint', x)
+						}
+					]
+				}
+			]
+		}

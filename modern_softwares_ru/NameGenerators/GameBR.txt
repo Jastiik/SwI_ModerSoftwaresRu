@@ -1,0 +1,55 @@
+[REPLACE]
+-start(special,base,pre,base)
+-special(base3,stop)
+Fortnite
+PUBG
+-pre(base)
+The 
+-base(base2,base3,stop)
+Apex
+Call of
+Free
+Rules of
+Realm
+Hyper
+Fall
+Spell
+Ring of
+Super
+Total
+Zombie
+Darwin
+Battle
+-base2(stop,base3,stop)
+ Legends
+ Royale
+ Duty
+ Fire
+ Survival
+ Scape
+ Guys
+ Point
+ Elysium
+ People
+ Accurate
+ Project
+-base3(stop)
+: Origins
+: Reborn
+: Legacy
+: Revenge
+: Awakening
+: Chronicles
+: Ressurection
+: Retribution
+: Genesis
+: Nemesis
+: Aftermath
+: Reckoning
+: Evolution
+: Odyssey
+: Dominion
+: Rising
+: Fall
+: Dawn
+: Echoes

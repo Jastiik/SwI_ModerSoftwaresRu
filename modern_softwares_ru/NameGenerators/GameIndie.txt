@@ -1,0 +1,76 @@
+[REPLACE]
+-start(special,base,pre,sbase)
+-special(stop)
+Hades
+Celeste
+Undertale
+Cuphead
+Limbo
+Inside
+FEZ
+Dredge
+Braid
+-pre(base,sbase)
+The 
+No 
+A 
+-sbase(base2,stop)
+Grain &
+Lily &
+Fragments of
+Beneath the
+Whispers in
+-base(base2,base3,stop)
+Echo
+Paper
+Longest
+Kindred
+Stellar
+Wander
+Thread
+Silent
+Rust
+Fog
+Stars
+Fable
+Bloom
+Clock
+Song for
+Feather
+Under
+Spirit
+-base2(stop)
+ Hollow
+ Veil
+ Loop
+ Light
+ Sky
+ Lantern
+ Moss
+ Drift
+ Gloom
+ the Ashes
+ Stone
+ Path
+ Light
+ Circuit
+ Thread
+ Vale
+ Lanterns
+ Solace
+ Root
+ Wind
+ Hike
+ Miami
+ Rain
+-base3(stop)
+bound
+fall
+bare
+light
+vale
+wind
+tale
+farer
+free
+head

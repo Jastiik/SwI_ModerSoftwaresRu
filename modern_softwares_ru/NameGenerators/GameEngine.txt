@@ -1,0 +1,44 @@
+-start(base)
+-base(base2,base2,ext)
+Vision
+Scene
+Canvas
+Morph
+Axis
+Grid
+Core
+Aura
+Flow
+Pixel
+Render
+Code
+Forge
+Glyph
+Spectra
+Nova
+Vertex
+Stream
+Unity
+Unreal
+Spark
+Nexus
+-base2(stop,stop,ext)
+Craft
+Form
+Weave
+ Studio
+ Frame
+ Pulse
+Hub
+ Trace
+Spark
+Lab
+-ext(stop)
+ Engine
+ Pro
+ Suite
+ Creator
+ Premium
+ Framework
+ Matrix
+ Platform

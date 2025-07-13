@@ -1,0 +1,32 @@
+[REPLACE]
+-start(base,pre)
+-pre(base)
+The 
+-base(base2,stop)
+Rim
+Factorio
+Planet
+Frost
+Oxygen
+Stardew
+Surviving
+Zoo
+Game Dev
+Software
+Airline
+Capitalism
+Project
+Academia
+-base2(stop)
+ World
+ Manager
+ Architect
+ Hospital
+ Planet
+ Coaster
+ Punk
+ Valley
+ Mars
+ Tycoon
+ Inc.
+ Highrise

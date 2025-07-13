@@ -1,0 +1,54 @@
+-start(special,base,pre)
+-special(stop)
+Portal
+Tetris
+Witness
+Limbo
+Inside
+Catherine
+Fragments
+Obscura
+Unlooped
+-pre(base,special)
+The 
+-base(base2)
+Mind
+Loop
+Echo
+8th
+Pattern
+Cube
+Axis
+Snap
+Glyph
+Puzzle
+Light
+Knot
+Tangle
+Code
+Mirror
+Thought
+Neuro
+Prism
+Fifth
+Spiral
+-base2(stop)
+ Shift
+ Light
+ Grid
+ Room
+ Fall
+ Scape
+ Drift
+ Line
+ Lost
+ Box
+ Weaver
+ Logic
+ Frame
+ Silence
+ Key
+ Maze
+ Crypt
+ Path
+ Switch

@@ -1,0 +1,78 @@
+-start(phrase,fullword)
+-fullword(stop)
+Vortex
+Pulse
+Aura
+Nexus
+Echo
+Vector
+Striker
+Phantom
+Titan
+Glide
+Sentinel
+Nova
+Quantum
+Helix
+Pixel
+-phrase(phrase2,base)
+Hyper
+Ultra
+Next
+Prime
+Quantum
+Core
+Pixel
+Nova
+True
+Neo
+Light
+Fire
+Iron
+Blue
+Red
+Silent
+Dark
+Open
+Virtual
+Holo
+Cyber
+Meta
+VR
+-phrase2(base,stop)
+ Gear
+ System
+ Lab
+ Forge
+ Suite
+ Creator
+ Studio
+ Craft
+ Logic
+ Tech
+ World
+ Works
+ Machine
+ Platform
+ Builder
+ Source
+ Engine
+ Device
+ Toolbox
+ Interface
+-base(stop)
+ Pro
+ X
+ Max
+ 360
+ One
+ Prime
+ Edge
+ Next
+ Vision
+ Force
+ XR
+ Plus
+ Ultra
+ Elite
+ Infinity

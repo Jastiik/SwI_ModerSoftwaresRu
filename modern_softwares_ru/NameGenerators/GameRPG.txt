@@ -1,0 +1,73 @@
+[REPLACE]
+-start(pre,base)
+-pre(base)
+The 
+-base(post,base2,base2,base3,stop)
+Witcher
+Elden
+Elder
+Final
+Mass
+Persona
+Chrono
+Dark
+Dragon
+Legend
+Divinity
+Bloodborne
+Xenoblade
+Baldur's
+Fallout
+Nier
+Kingdom
+Pokemon
+Star
+Fire
+Earth
+Monster
+Path
+Pillars
+Disco
+World
+Vampire
+-post(base2)
+ of
+ of the
+-base2(base3,stop)
+ Ring
+ Scrolls
+ Fantasy
+ Effect
+ Trigger
+ Souls
+ Age
+ Zelda
+ Chronicles
+ Gate
+ Hearts
+ Quest
+ Wars
+ Emblem
+ Bound
+ Hunter
+ Exile
+ Eternity
+ Elysium
+ Line
+ Dead
+-base3(stop)
+: Skyrim
+: Royal
+: Origins
+: Wild
+: Original
+: New Vegas
+: Abyss
+: Automata
+: Echoes
+: New Age
+: World
+: Steampunk
+: Cyberpunk
+: Truth
+: Reborn

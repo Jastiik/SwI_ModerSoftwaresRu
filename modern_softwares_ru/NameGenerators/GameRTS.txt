@@ -1,0 +1,64 @@
+[REPLACE]
+-start(pre,base)
+-pre(base)
+The 
+-base(post,base2,base3,base4,stop)
+Star
+Age
+War
+Company
+Command
+Total
+Rise
+Supreme
+Home
+Battle
+North
+Ancestor
+Settler
+-post(base2)
+ of
+ of the
+ and
+ in
+-base2(base3,stop)
+ Empires
+ Heroes
+ Conquer
+ Annihilation
+ Nations
+ Commander
+ Crusader
+ Earth
+ World
+ Wars
+ Conflict
+ Realms
+ Harvest
+ War
+ Lord
+ Solar
+ Legacy
+-base3(stop)
+: Legacy
+: Royal
+: Zero
+: Generals
+: WW1
+: Abyss
+: WW2
+: New Age
+: New World
+: Steampunk
+: Cyberpunk
+: Truth
+: Reborn
+-base4(base3,stop)
+craft
+hammer
+hold
+zone
+guard
+tale
+cry
+lords

@@ -1,0 +1,15 @@
+﻿CompanyType
+	{
+	Specialization		"Game Development"
+	PerYear				0.6
+	Min					10
+	Max					30
+	Types
+		[
+			{
+			Software	"Game"
+			Chance		1
+			Force		True
+			}
+		]
+	}

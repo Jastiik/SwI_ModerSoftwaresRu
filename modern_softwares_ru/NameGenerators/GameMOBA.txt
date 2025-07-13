@@ -1,0 +1,44 @@
+-start(special,base,pre)
+-special(stop)
+Overprime
+Predecessor
+Awesomenauts
+Strife
+Battlerite
+Smite
+-pre(base)
+The 
+-base(post,base2)
+League
+Defense
+Mobile
+Arena
+Smite
+Heroes
+Vain
+Pokemon
+Battle
+Paragon
+Onmyoji
+Paladins
+Fractured
+Legends
+Genesis
+Fangs
+Eternity
+-post(base2)
+ of
+ of the
+-base2(stop)
+ Legends
+ Ancients
+ Valor
+ Storm
+ Glory
+ Unite
+ Evolved
+ Arena
+ Strike
+ Space
+ Ace
+ Supers

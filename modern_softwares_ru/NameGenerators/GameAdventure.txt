@@ -1,0 +1,101 @@
+[REPLACE]
+-start(special,base,pre,base)
+-special(base3,stop)
+Uncharted
+Myst
+Beyond Good and Evil
+Metroid
+-pre(base)
+The 
+-base(base2,base3,stop)
+Monkey
+Grim
+King's
+Queen's
+Broken
+Syberia
+Life
+Walking
+Day
+Tomb
+Assassin's
+Fire
+Kingdom
+Blind
+Kentucky
+Longest
+Iron
+Silent
+Crimson
+Shadow
+Lost
+Silver
+Neon
+Dark
+Echo
+Secret
+Frozen
+Golden
+Hollow
+Blood
+Spirit
+Deadly
+Burning
+Ancient
+-base2(stop,base3,stop)
+ Island
+ Fandango
+ Quest
+ Sword
+ Strange
+ Dead
+ Tentacle
+ Raider
+ Creed
+ Watch
+ Hearts
+ Evil
+ Forest
+ Route
+ Zero
+ Emblem
+ Home
+ Journey
+ Tide
+ Valley
+ Flame
+ Garden
+ City
+ Curse
+ Dream
+ Pact
+ Crown
+ Realm
+ Path
+ Ashes
+ Mirror
+ Rift
+ Order
+ Cross
+ Silence
+ Haven
+-base3(stop)
+: Origins
+: Reborn
+: Legacy
+: Revenge
+: Awakening
+: Chronicles
+: Ressurection
+: Retribution
+: Genesis
+: Nemesis
+: Aftermath
+: Reckoning
+: Evolution
+: Odyssey
+: Dominion
+: Rising
+: Fall
+: Dawn
+: Echoes

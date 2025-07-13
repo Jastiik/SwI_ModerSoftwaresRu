@@ -1,0 +1,29 @@
+[REPLACE]
+-start(special,base,pre,base)
+-special(stop)
+Tekken
+Injustice
+Brawlhalla
+-pre(base)
+The 
+-base(base2,base3,stop)
+Street
+Super
+Mortal
+Guilty
+King of
+Dragon Ball
+Soul
+Virtua
+Dead
+Power
+-base2(stop,base3,stop)
+ Fighter
+ Fighters
+ Kombat
+ Smash
+ Storm
+ Rangers
+-base3(stop)
+ Bros
+ Brotherhood

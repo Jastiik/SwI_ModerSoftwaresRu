@@ -1,0 +1,47 @@
+[REPLACE]
+-start(special,base,base)
+-special(sbase,stop)
+Unity
+Godot
+Construct
+Cocos
+Defold
+MonoGame
+Phaser
+Blender
+-sbase(stop)
+ Engine
+-base(base2)
+Game
+Cry
+RPG
+Amazon
+Ogre
+Solar
+Torque
+Lead
+App
+Forge
+Tool
+Creator
+Box
+Logic
+Pixel
+-base2(base3,stop)
+ Engine
+ Maker
+ 3D
+ 2D
+ Studio
+ Lab
+-base3(stop)
+ Premium
+ Legacy
+ Pro
+ X
+ Max
+ Infinity
+ Ultra
+ Vision
+ Next
+ 
